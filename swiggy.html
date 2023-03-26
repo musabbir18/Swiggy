@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .main{
+            display: flex;
+        }
+        .main .left{
+            margin: 57px;
+        }
+        .main .left nav img{
+            width: 30%;
+        }
+        .main .left nav{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .left nav .sign{
+                width: 110px;
+                height: 34px;
+                background-color: black;
+                color: white;
+                border: none;
+                font-size: 17px;
+                
+        } 
+        .left nav button{
+            background-color:transparent;
+            color:black;
+            border: none;
+            margin-inline: 13px;
+        }
+        .main img{
+            width: 430px;
+            
+
+        }
+        .main .left .text{
+            margin-left: 63px;
+            margin-top: 77px;
+        }
+        .left .text h1{
+            font-size: 43px;
+        }
+        .left .text p{
+            margin-top: 22px;
+            font-size: 19px;
+            font-weight: 400;
+        }
+        .left .text .inp{
+            display: flex;
+        }
+        .left .text input{
+            width: 400px;
+            height: 50px;
+            border: 1px solid orange;
+        } 
+        .left .text .inp button{
+            width: 100px;
+            border: none;
+           font-size: 18px;
+            background-color: orange;
+            color: white;
+          
+        }
+        .left .text p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 50px;
+            margin-top: 5px;
+            font-size:px;
+        }
+        .card{
+            display: flex;
+           width: 100%;
+            justify-content:space-evenly;
+            background-color: rgb(44, 25, 12);
+        }
+        .card .crd{
+            width: 33%;
+            text-align: center;
+            color:white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <nav> 
+                <img src="./image/Swiggy_logo-PNG_lfcnxm.png" alt="">
+                <div class="btn">
+                    <button>Login</button>
+                    <button class="sign">Sign Up</button>
+                </div>
+            </nav>
+           <div class="text">
+            <h1>Late Night at Office ?</h1>
+            <p>Order food from favourite restaurant near you.</p>
+            <div class="inp">
+            <input type="text" placeholder="   Enter your Delivery Location">
+            <button>Find Food</button>
+            </div>
+            <p>Popular cites in India</p>
+            <p>Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai Pune& more.</p>
+           </div>
+        </div>
+        <img src="./image/chad-montano--GFCYhoRe48-unsplash.jpg" alt="">
+    </div>
+    <div class="card">
+        <div class="crd">
+            <img src="./image/img/nomini.webp" alt="">
+            <h3>No Minimum Order</h3>
+            <p>Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+        <div class="crd">
+            <img src="./image/img/live.webp" alt="">
+            <h3>Live Order Tracking</h3>
+            <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+        <div class="crd">
+            <img src="./image/img/fast.webp" alt="">
+            <h3>Lightning-Fast Delivery</h3>
+            <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </div>
+    </div>
+</body>
+</html>
